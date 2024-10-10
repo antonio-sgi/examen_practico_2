@@ -10,7 +10,7 @@ import lombok.experimental.SuperBuilder;
 @Data
 @SuperBuilder
 
-public class Persona {
+public abstract class Persona {
     private String nombre;
     private String primerApellido;
     private String segundoApellido;
